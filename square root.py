@@ -1,3 +1,3 @@
-num=49
-num_sqrt=(num)
-print(f'the number is{num}and is stored in num_sqrt[num-sqrt}')
+num=int(input('Enter a number:'))
+num_sqrt= num**0.5
+print("The square root of", num, "is", num_sqrt)
