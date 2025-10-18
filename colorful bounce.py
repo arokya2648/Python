@@ -27,5 +27,5 @@ class Sprite(pygame.sprite.Sprite):
             self.velocity[1]=-self.velocity[1]
             boundary_hit=True
         if boundary_hit:
-            pygame.event.post(pygame.event.Evemt(SPRITE_COLOR_CHANGE_EVRNT))
+            pygame.event.post(pygame.event.Evemt(SPRITE_COLOR_CHANGE_EVENT))
             
