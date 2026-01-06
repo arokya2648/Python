@@ -7,3 +7,4 @@ def fac(n):
     return n*fac(n-1)
 n=int(input('Enter the number you want to find the factorial of'))
 print('Factorial  of', n ,'is:', fac(n))
+print('The complexity  for recursive functions are O(nlogn)')
