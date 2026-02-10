@@ -13,4 +13,4 @@ def findwater(a, a_size):
     return water
 a=[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 bars=len(a)
-print('Water:', findwater(a, bars))
+print('Water:'  , findwater(a, bars))
