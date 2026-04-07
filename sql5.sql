@@ -16,3 +16,11 @@ FROM PRODUCTS;
 --Query to find the total prrice of products
 SELECT SUM(PRICE_REAL) AS totalprice
 FROM PRODUCTS;
+--Query find the most expensive product
+SELECT MAX(PRICE_REAL) AS maxprice
+FROM PRODUCTS;
+--Query find the cheapest product
+SELECT MIN(PRICE_REAL) AS minprice
+FROM PRODUCTS;
+SELECT DISTINCT(PRODUCT_NAME) AS distinctproduct
+FROM PRODUCTS;
